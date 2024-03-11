@@ -13,6 +13,7 @@
     "@midwayjs/validate": "^3.12.0"
   },
   "devDependencies": {
+    "@midwayjs/luckyeye": "^1.1.0",
     "@midwayjs/mock": "^3.12.0",
     "@types/jest": "^29.2.0",
     "@types/node": "14",
@@ -34,11 +35,17 @@
     "lint": "mwts check",
     "lint:fix": "mwts fix",
     "ci": "npm run cov",
-    "build": "mwtsc --cleanOutDir"
+    "build": "mwtsc --cleanOutDir",
+    "check": "luckyeye"
   },
   "repository": {
     "type": "git",
     "url": ""
+  },
+  "midway-luckyeye": {
+    "packages": [
+      "midway_v2"
+    ]
   },
   "author": "anonymous",
   "license": "MIT"

@@ -28,6 +28,9 @@ dependencies:
     version: 3.15.2
 
 devDependencies:
+  '@midwayjs/luckyeye':
+    specifier: ^1.1.0
+    version: 1.1.0
   '@midwayjs/mock':
     specifier: ^3.12.0
     version: 3.15.2
@@ -819,6 +822,18 @@ packages:
       dayjs: 1.11.10
       safe-stable-stringify: 2.4.3
     dev: false
+
+  /@midwayjs/luckyeye@1.1.0:
+    resolution: {integrity: sha512-B/bBKJjyFT22a0K0K9R+b03tijGL7A8LQshfTha6KanqlYhpuEKA9N1IdR0+2yS4pQtVYJrddjcZ8ZR49ihQ6A==}
+    engines: {node: '>= 10.0.0'}
+    hasBin: true
+    dependencies:
+      find-root: 1.1.0
+      ms: 2.1.2
+      queue: 6.0.2
+      semver: 7.6.0
+      supports-color: 8.1.1
+    dev: true
 
   /@midwayjs/mock@3.15.2:
     resolution: {integrity: sha512-TKU9hwzqjmlHbGVHCWUbk9kbwVFwWDqFnwMebNjPKJEZLcrKsvhaWfdW7hBR3MZdEoTVx33QJzmK2YoSiq3ZNg==}
@@ -2327,6 +2342,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       to-regex-range: 5.0.1
+    dev: true
+
+  /find-root@1.1.0:
+    resolution: {integrity: sha512-NKfW6bec6GfKc0SGx1e07QZY9PE99u0Bft/0rzSD5k3sO/vwkVUpDUKVm5Gpp5Ue3YfShPFTX2070tDs5kB9Ng==}
     dev: true
 
   /find-up@4.1.0:
@@ -3984,6 +4003,12 @@ packages:
 
   /queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
+    dev: true
+
+  /queue@6.0.2:
+    resolution: {integrity: sha512-iHZWu+q3IdFZFX36ro/lKBkSvfkztY5Y7HMiPlOUjhupPcG2JMfst2KKEpu5XndviX/3UhFbRngUPNKtgvtZiA==}
+    dependencies:
+      inherits: 2.0.4
     dev: true
 
   /quick-lru@4.0.1:
