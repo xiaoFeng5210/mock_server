@@ -1,0 +1,47 @@
+{
+  "mode": "manual",
+  "oven": [
+    0,
+    1,
+    2
+  ],
+  "food": [
+    {
+      "name": "面条",
+      "time": 90,
+      "soft_time": 6,
+      "order_count": 30,
+      "cool_time": 60,
+      "reboil_time": 5
+    },
+    {
+      "name": "米粉",
+      "time": 90,
+      "soft_time": 10,
+      "order_count": 28,
+      "cool_time": 60,
+      "reboil_time": 5
+    },
+    {
+      "name": "馄饨",
+      "time": 90,
+      "soft_time": 6,
+      "order_count": 27,
+      "cool_time": 60,
+      "reboil_time": 5
+    }
+  ],
+  "cabinet": [
+    0,
+    1,
+    2
+  ],
+  "soup": [
+    {
+      "name": "高汤",
+      "time": 5
+    }
+  ],
+  "soup_temperature": 80,
+  "running_water": 50
+}
