@@ -27,4 +27,6 @@ export class APIController {
   async getDishConfig() {
     return await this.lebaiBoilService.getDishConfig();
   }
+
+  
 }
